@@ -21,7 +21,7 @@ def main():
             
             customer_id = bankcore.create_account(name, password)
             
-            accounts.balance_record[customer_id] = 0
+            #accounts.balance_record[customer_id] = 0
         
         
         elif choice == "2":
@@ -69,6 +69,7 @@ def main():
         
         else:
             print("Invalid option")
+
 
 
 main()
