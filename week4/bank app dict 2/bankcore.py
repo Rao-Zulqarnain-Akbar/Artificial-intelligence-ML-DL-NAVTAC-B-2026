@@ -5,7 +5,7 @@ users_info = {}
 
 
 def create_account(name, password):
-    
+    global user_number
     customer_id = str(branch_id) + "-" + str(user_number)
     users_info[customer_id] = {"name": name,"password": password}
     
@@ -26,4 +26,5 @@ def login(customer_id, password):
             return True
         
     print("Invalid login")
+
     return False
