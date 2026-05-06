@@ -1,2 +1,8 @@
 Day 1---- ScikitLearn_Titanic dataset and train dataset using classification model
 Day 2---- Training model on titanic dataset
+Day 3---- Data processing using sklearn(along with data encoding and feature scaling)
+  a-Data eccoding
+  |---Label encoding 
+  |---One-hot encoding
+  b-Feature Scaling
+
